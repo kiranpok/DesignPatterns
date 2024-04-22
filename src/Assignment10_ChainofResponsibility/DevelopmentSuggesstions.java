@@ -1,6 +1,6 @@
 package Assignment_ChainofResponsibility;
 
-public class DevelopmentSuggestions extends Feedback {
+public class DevelopmentSuggesstions extends Feedback {
 
     @Override
     public void process(Message message) {

@@ -3,7 +3,7 @@ package Assignment_ChainofResponsibility;
 public class Main {
     public static void main(String[] args) {
         Feedback generalFeedback = new GeneralFeedback();
-        Feedback developmentSuggestions = new DevelopmentSuggestions();
+        Feedback developmentSuggestions = new DevelopmentSuggesstions();
         Feedback contactRequests = new ContactRequests();
         Feedback compensationClaims = new CompensationClaims();
 
