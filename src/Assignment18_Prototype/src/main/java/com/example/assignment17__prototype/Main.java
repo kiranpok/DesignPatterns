@@ -1,4 +1,4 @@
-package org.example;
+package com.example.assignment17__prototype;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,14 +11,15 @@ public class Main {
 
         // Sample Recommendations (Modify as needed)
         List<Book> sciFiBooks = new ArrayList<>();
-        sciFiBooks.add(new Book("Isaac Asimov", "Foundation"));
-        sciFiBooks.add(new Book("Andy Weir", "The Martian"));
+        sciFiBooks.add(new Book("Philip K. Dick", "Do Androids Dream of Electric Sheep?"));
+        sciFiBooks.add(new Book("Frank Herbert", "Dune"));
         Recommendation sciFiRec = new Recommendation("Sci-Fi Fans", sciFiBooks);
 
         List<Book> fantasyBooks = new ArrayList<>();
-        fantasyBooks.add(new Book("J.R.R. Tolkien", "The Lord of the Rings"));
-        fantasyBooks.add(new Book("George R.R. Martin", "A Game of Thrones"));
+        fantasyBooks.add(new Book("Brandon Sanderson", "Mistborn: The Final Empire"));
+        fantasyBooks.add(new Book("Patrick Rothfuss", "The Name of the Wind"));
         Recommendation fantasyRec = new Recommendation("Fantasy Readers", fantasyBooks);
+
 
         while (true) {
             System.out.println("\nMenu:");

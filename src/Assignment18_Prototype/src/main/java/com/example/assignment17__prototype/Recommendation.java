@@ -1,4 +1,4 @@
-package org.example;
+package com.example.assignment17__prototype;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,3 +48,4 @@ public class Recommendation implements Cloneable {
 
     }
 }
+

@@ -1,6 +1,4 @@
-package org.example;
-
-
+package com.example.assignment17__prototype;
 
 public class Book {
 
@@ -34,4 +32,5 @@ public class Book {
         return author + " - " + title + (genre != null ? " (" + genre + ")" : "");
     }
 }
+
 
