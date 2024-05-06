@@ -1,0 +1,15 @@
+
+c
+java:S21841"HCast one of the operands of this multiplication operation to a "double".(Í¥ð¤ûÿÿÿÿ
+c
+java:S21841"HCast one of the operands of this multiplication operation to a "double".(Í¥ð¤ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(´äƒ«ùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Öã³
+T
+java:S1854""9Remove this useless assignment to local variable "image".(‹‰ò½ýÿÿÿÿ
+E
+java:S1481""*Remove this unused "image" local variable.(‹‰ò½ýÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(¨’ÍÔøÿÿÿÿ
+@	java:S106%"+Replace this use of System.out by a logger.(ßÎ…å
+S
+java:S1144"8Remove this unused private "testResourceLoading" method.(ÒèÃÿÿÿÿÿ

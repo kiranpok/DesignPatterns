@@ -1,3 +1,5 @@
+package org.example.flyweight;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 

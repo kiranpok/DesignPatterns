@@ -1,3 +1,5 @@
+package org.example.flyweight;
+
 public class GenericTile implements Tile {
     private final TileType type;
 

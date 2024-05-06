@@ -1,3 +1,5 @@
+package org.example.flyweight;
+
 public enum TileType {
     BUILDING("/org/example/flyweight/images/building.png"),
     ROAD("/org/example/flyweight/images/road.png"),

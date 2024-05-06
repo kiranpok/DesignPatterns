@@ -1,2 +1,13 @@
-package Assignment16_Bridge;public class Remote {
+package Assignment16_Bridge;
+
+public interface Remote {
+    void power();
+
+    void volumeDown();
+
+    void volumeUp();
+
+    void channelDown();
+
+    void channelUp();
 }

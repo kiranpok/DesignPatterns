@@ -1,10 +1,12 @@
+package org.example.flyweight;
+
 import java.util.Random;
 
-public class CityMap implements Map {
-    final Tile[][] grid;
-    final int size = 5;
+public class WildernessMap implements Map{
+    private Tile[][] grid;
+    private int size = 5;
 
-    public CityMap() {
+    public WildernessMap() {
         grid = new Tile[size][size];
         generateMap();
     }
@@ -12,7 +14,7 @@ public class CityMap implements Map {
     @Override
     public void generateMap() {
         Random random = new Random();
-        TileType[] types = {TileType.ROAD, TileType.BUILDING, TileType.FOREST};
+        TileType[] types = {TileType.SWAMP, TileType.WATER, TileType.FOREST};
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 grid[i][j] = new GenericTile(types[random.nextInt(types.length)]);

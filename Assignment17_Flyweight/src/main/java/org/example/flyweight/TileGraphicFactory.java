@@ -1,3 +1,5 @@
+package org.example.flyweight;
+
 import javafx.scene.image.Image;
 
 import java.io.InputStream;
